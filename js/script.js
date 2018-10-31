@@ -35,8 +35,8 @@ function randomString() {
     // CONSTRUCTION COLUMN ELEMENT
     $column.append($columnTitle)
         .append($columnDelete)
-        .append($columnAddCard)
-        .append($columnCardList);
+        .append($columnCardList)
+        .append($columnAddCard);
 
     // RETURN OF CREATED COLUMN
     return $column;
